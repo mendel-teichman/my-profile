@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+	color: #0000FF;
+	font-family: 'Lora', serif;
+	font-size: 17px;
+}
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	color: Green;
+    font-size: 55px;
+    letter-spacing: 10px;
+}
+
+h2 {
+	color: Yellow;
+    font-size: 33px;
+    font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color:red;
+}
+
+a:hover {
+	color:purple	;
+}
+
+#title {
+	background: white;
+	padding: 1em;
+	margin:50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 1%;
+}
+
+.passion {
+	background: white;
+	padding: 1em;
+	margin:50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,1);
+	border-radius: 1%;
+}
+
+.container {
+	width: 700px
+	margin:40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		background-color: red;
+	}
+}
